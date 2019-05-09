@@ -457,40 +457,6 @@ int main() {
         msgctl(msgid, IPC_RMID, NULL); 
     
 
-    // std::cout<<"total number of disk blocks = 50.\n";
-    
-    
-    // while(1){
-    //     std::cout<<"\nenter the block no. to move in memory(between 1 and 50) and 0 to exit.\n";
-    //     std::cin>>block_number;
-    //     if(block_number == 0){
-    //         break;
-    //     }else{
-    //         getblk(1,block_number);
-    //         printHashQ();
-    //         printFreeList();
-	// 		// std::cout<<"want to free the buffer? (y/n): ";
-	// 		// char ch;
-	// 		// std::cin>>ch;
-
-
-    //         if(fhead  == nullptr/* || ch=='y' || ch == 'Y'*/){
-    //             std::cout<<"enter the block no in hash queue to remove: ";
-    //             std::cin>>delete_b_no;
-    //             Buff_node *temp = inHash(1,delete_b_no);
-                
-    //             if(temp != 0){
-    //                 brelse(&temp);
-	// 				std::cout<<"hash q after deletion\n";
-	// 				//printHashQ();
-    //                 }else{
-    //                     std::cout<<"buffer not in hash queue\n";
-    //                 }
-    //             printFreeList();
-    //         }
-
-    //     } 
-    // }
 
 
 	
